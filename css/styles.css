@@ -45,6 +45,9 @@ body {
     padding: 0 15px;
     background: var(--backgroud-color);
 }
+.icon {
+    color: var(--main-color)
+}
 /* Pseudoklasy etc */
 .contact-link a:hover,
 .contact-link a:focus {
@@ -58,6 +61,9 @@ body {
 .option-button:focus {
     background-color: var(--hover-color);
     color: var(--white-color);
+}
+.icon:hover {
+    color: var(--hover-color)
 }
 /* Zastosowanie Header */
 .navigation a {
