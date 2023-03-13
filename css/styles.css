@@ -46,7 +46,7 @@ body {
     background: var(--backgroud-color);
 }
 .icon {
-    color: var(--main-color)
+    fill: var(--main-color)
 }
 /* Pseudoklasy etc */
 .contact-link a:hover,
@@ -63,7 +63,7 @@ body {
     color: var(--white-color);
 }
 .icon:hover {
-    color: var(--hover-color)
+    fill: var(--hover-color)
 }
 /* Zastosowanie Header */
 .navigation a {
@@ -178,6 +178,11 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.icons {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
 .content-text {
     font-size: 14px;
