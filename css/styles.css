@@ -134,6 +134,8 @@ body {
     background-color: var(--backgroud-color);
     padding-bottom: 280px;
     padding-top: 200px;
+    background-image: linear-gradient(90deg, rbga(47, 48, 58, 0.4)0%, rgba(47, 48, 58, 0.4)0%), url(../images/team.jpg);
+    background-size: contain;
 }
 .main-text {
     font-weight: 900;
@@ -331,4 +333,16 @@ body {
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
+}
+/* ikony */
+.icon {
+    fill: var(--main-color);
+}
+.icon:hover {
+    fill: var(--hover-color);
+}
+.icons {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
