@@ -134,8 +134,8 @@ body {
     background-color: var(--backgroud-color);
     padding-bottom: 280px;
     padding-top: 200px;
-    background-image: linear-gradient(90deg, rbga(47, 48, 58, 0.4)0%, rgba(47, 48, 58, 0.4)0%), url(../images/team.jpg);
     background-size: contain;
+    background-image: linear-gradient(90deg, rbga(47, 48, 58, 0.4)0%, rgba(47, 48, 58, 0.4)0%), url(../images/team.jpg);
 }
 .main-text {
     font-weight: 900;
@@ -346,3 +346,4 @@ body {
     list-style: none;
     justify-content: space-around;
 }
+/* Zastosowanie Nasi Klienci */
