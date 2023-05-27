@@ -339,6 +339,7 @@ body {
 /* ikony */
 .icon {
     fill: var(--main-color);
+    cursor: pointer;
 }
 .icon:hover {
     fill: var(--hover-color);
@@ -354,4 +355,21 @@ body {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+.icony {
+    border: 1px solid #afb1bb;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.icony:hover {
+    fill: var(--hover-color);
+}
 /* Zastosowanie Nasi Klienci */
+.clients {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
