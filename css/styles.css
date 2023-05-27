@@ -106,7 +106,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--secondary-color);
-    padding-left: 50px;
+    padding-left: 10px;
     }
 .menu {
     display: flex;
@@ -123,19 +123,21 @@ body {
 }
 .menu-links {
     display: flex;
-    padding-left: 367px;
+    padding-left: 360px;
+    padding-right: 10px;
 }
 /* Zastosowanie Main Index Hero */
+.teamphoto {
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4)0%, rgba(47, 48, 58, 0.4)0%), url(../images/team.jpg);
+    background-size: cover;
+}
 .hero {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--backgroud-color);
     padding-bottom: 280px;
     padding-top: 200px;
-    background-size: contain;
-    background-image: linear-gradient(90deg, rbga(47, 48, 58, 0.4)0%, rgba(47, 48, 58, 0.4)0%), url(../images/team.jpg);
 }
 .main-text {
     font-weight: 900;
@@ -344,6 +346,12 @@ body {
 .icons {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.iconx {
+    background: #f5f4fa;
+    border-radius: 4px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 /* Zastosowanie Nasi Klienci */
