@@ -84,7 +84,7 @@ body {
     color: var(--white-color);
 }
 .button-shadow:hover,
-.option-shadow:focus {
+.button-shadow:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* Zastosowanie Header */
@@ -125,10 +125,13 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color);
 }
+.link-item {
+    padding-right: 20px;
+}
 .menu-links {
     display: flex;
+    justify-content: space-around;
     padding-left: 360px;
-    padding-right: 10px;
 }
 /* Zastosowanie Main Index Hero */
 .teamphoto {
@@ -242,7 +245,6 @@ body {
     padding-bottom: 30px;
 }
 .frame {
-    margin: 10px;
     background-color: var(--white-color);
 }
 .container-team {
@@ -251,12 +253,16 @@ body {
 .container-memb {
     display: flex;
     list-style: none;
+    justify-content: space-between;
     background-color: #f5f4fa;
-        border-radius: 0px 0px 4px 4px;
-    padding-left: 4px;
+    border-radius: 0px 0px 4px 4px;
 }
 .shad {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.14), 0px 1px 1px rgba(0, 0 ,0 ,0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.somedia-box. {
+    display: flex;
+    justify-content: space-between;
 }
 /* Zastosowanie Footer bez Brand Logo */
 .address-link {
@@ -347,29 +353,33 @@ body {
 }
 /* ikony */
 .icon {
-    fill: var(--main-color);
+    fill: #afb1bb;
     cursor: pointer;
 }
-.icon:hover {
+.icon:hover,
+.icon:focus {
     fill: var(--hover-color);
 }
 .icons {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    fill: #afb1bb;
+    cursor: pointer;
 }
-.iconx {
+.icon-index {
     background: #f5f4fa;
     border-radius: 4px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.icony {
+.icon-border {
     border: 1px solid #afb1bb;
     border-radius: 4px;
     cursor: pointer;
 }
-.icony:hover {
+.icon-border:hover,
+.icon-border:focus {
     fill: var(--hover-color);
 }
 /* Zastosowanie Nasi Klienci */
@@ -383,20 +393,29 @@ body {
     padding-bottom: 50px;
 }
 /* Zastosowanie SoMe */
-.join {
+.joinus {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-color);
+    padding-bottom: 20px;
 }
-.mediaw {
+.joinus-box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+.somedia {
     fill: var(--white-color);
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 100%;
+    border-radius: 50%;
     cursor: pointer;
 }
-.mediaw:hover {
+.somedia:hover {
     background: var(--hover-color);
+}
+.global-footer {
+    display: flex;
 }
