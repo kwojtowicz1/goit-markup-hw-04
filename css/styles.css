@@ -370,6 +370,13 @@ body {
     cursor: pointer;
     padding-bottom: 30px;
 }
+.icons-clients {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    fill: #afb1bb;
+    cursor: pointer;
+}
 .icon-index {
     background: #f5f4fa;
     border-radius: 4px;
