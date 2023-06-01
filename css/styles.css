@@ -249,6 +249,8 @@ body {
 }
 .container-team {
         background-color: #f5f4fa;
+        height: 708px;
+        padding-top: 94px;
 }
 .container-memb {
     display: flex;
@@ -363,12 +365,10 @@ body {
 .icons {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
     fill: #afb1bb;
     cursor: pointer;
-}
-.icons:hover {
-    fill: var(--hover-color);
+    padding-bottom: 30px;
 }
 .icon-index {
     background: #f5f4fa;
