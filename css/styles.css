@@ -367,6 +367,9 @@ body {
     fill: #afb1bb;
     cursor: pointer;
 }
+.icons:hover {
+    fill: var(--hover-color);
+}
 .icon-index {
     background: #f5f4fa;
     border-radius: 4px;
@@ -407,10 +410,28 @@ body {
     flex-direction: column;
     padding-left: 70px;
 }
-.somedia {
+.somedia-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     fill: var(--white-color);
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    cursor: pointer;
+}
+.somedia-footer:hover {
+    background: var(--hover-color);
+}
+.somedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #afb1bb;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
     cursor: pointer;
 }
 .somedia:hover {
